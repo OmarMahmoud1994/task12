@@ -1,0 +1,76 @@
+.container{
+    width: 350px;
+    height: 420px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.container:hover img{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+}
+.social-box{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top:-20%;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+.container:hover .social-box{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.name{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 5%;
+    left: -120%;
+}
+.name div{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h3{
+    color: red;
+}
+.container:hover .name{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
